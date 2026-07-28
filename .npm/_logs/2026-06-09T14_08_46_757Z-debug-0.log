@@ -1,0 +1,482 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.2
+2 info using node@v22.17.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/root/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm install tsx typescript playwright pptxgenjs
+7 verbose argv "install" "--global" "tsx" "typescript" "playwright" "pptxgenjs" "--force"
+8 verbose logfile logs-max:10 dir:/root/.npm/_logs/2026-06-09T14_08_46_757Z-
+9 verbose logfile /root/.npm/_logs/2026-06-09T14_08_46_757Z-debug-0.log
+10 warn using --force Recommended protections disabled.
+11 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest tsx@*
+15 silly packumentCache full:https://npmmirror.xaminim.com/tsx cache-miss
+16 http fetch GET 200 https://npmmirror.xaminim.com/tsx 230ms (cache miss)
+17 silly packumentCache full:https://npmmirror.xaminim.com/tsx set size:undefined disposed:false
+18 silly fetch manifest typescript@*
+19 silly packumentCache full:https://npmmirror.xaminim.com/typescript cache-miss
+20 http fetch GET 200 https://npmmirror.xaminim.com/typescript 1350ms (cache miss)
+21 silly packumentCache full:https://npmmirror.xaminim.com/typescript set size:undefined disposed:false
+22 silly fetch manifest playwright@*
+23 silly packumentCache full:https://npmmirror.xaminim.com/playwright cache-miss
+24 http fetch GET 200 https://npmmirror.xaminim.com/playwright 1588ms (cache miss)
+25 silly packumentCache full:https://npmmirror.xaminim.com/playwright set size:undefined disposed:false
+26 silly fetch manifest pptxgenjs@*
+27 silly packumentCache full:https://npmmirror.xaminim.com/pptxgenjs cache-miss
+28 http fetch GET 200 https://npmmirror.xaminim.com/pptxgenjs 105ms (cache miss)
+29 silly packumentCache full:https://npmmirror.xaminim.com/pptxgenjs set size:undefined disposed:false
+30 silly placeDep ROOT playwright@1.60.0 OK for:  want: *
+31 silly placeDep ROOT pptxgenjs@4.0.1 OK for:  want: *
+32 silly placeDep ROOT tsx@4.22.4 OK for:  want: *
+33 silly placeDep ROOT typescript@6.0.3 OK for:  want: *
+34 silly fetch manifest playwright-core@1.60.0
+35 silly packumentCache full:https://npmmirror.xaminim.com/playwright-core cache-miss
+36 silly fetch manifest fsevents@2.3.2
+37 silly packumentCache full:https://npmmirror.xaminim.com/fsevents cache-miss
+38 silly fetch manifest @types/node@^22.8.1
+39 silly packumentCache full:https://npmmirror.xaminim.com/@types%2fnode cache-miss
+40 silly fetch manifest https@^1.0.0
+41 silly packumentCache full:https://npmmirror.xaminim.com/https cache-miss
+42 silly fetch manifest image-size@^1.2.1
+43 silly packumentCache full:https://npmmirror.xaminim.com/image-size cache-miss
+44 silly fetch manifest jszip@^3.10.1
+45 silly packumentCache full:https://npmmirror.xaminim.com/jszip cache-miss
+46 silly fetch manifest esbuild@~0.28.0
+47 silly packumentCache full:https://npmmirror.xaminim.com/esbuild cache-miss
+48 silly fetch manifest fsevents@~2.3.3
+49 silly packumentCache full:https://npmmirror.xaminim.com/fsevents cache-miss
+50 http fetch GET 200 https://npmmirror.xaminim.com/fsevents 121ms (cache miss)
+51 silly packumentCache full:https://npmmirror.xaminim.com/fsevents set size:undefined disposed:false
+52 http fetch GET 200 https://npmmirror.xaminim.com/fsevents 129ms (cache miss)
+53 silly packumentCache full:https://npmmirror.xaminim.com/fsevents set size:undefined disposed:false
+54 http fetch GET 200 https://npmmirror.xaminim.com/image-size 139ms (cache miss)
+55 silly packumentCache full:https://npmmirror.xaminim.com/image-size set size:undefined disposed:false
+56 http fetch GET 200 https://npmmirror.xaminim.com/jszip 185ms (cache miss)
+57 silly packumentCache full:https://npmmirror.xaminim.com/jszip set size:undefined disposed:false
+58 http fetch GET 200 https://npmmirror.xaminim.com/https 191ms (cache miss)
+59 silly packumentCache full:https://npmmirror.xaminim.com/https set size:undefined disposed:false
+60 http fetch GET 200 https://npmmirror.xaminim.com/esbuild 234ms (cache miss)
+61 silly packumentCache full:https://npmmirror.xaminim.com/esbuild set size:undefined disposed:false
+62 http fetch GET 200 https://npmmirror.xaminim.com/@types%2fnode 1083ms (cache miss)
+63 silly packumentCache full:https://npmmirror.xaminim.com/@types%2fnode set size:undefined disposed:false
+64 http fetch GET 200 https://npmmirror.xaminim.com/playwright-core 1593ms (cache miss)
+65 silly packumentCache full:https://npmmirror.xaminim.com/playwright-core set size:undefined disposed:false
+66 silly placeDep node_modules/playwright fsevents@2.3.2 OK for: playwright@1.60.0 want: 2.3.2
+67 silly placeDep node_modules/playwright playwright-core@1.60.0 OK for: playwright@1.60.0 want: 1.60.0
+68 silly placeDep node_modules/pptxgenjs @types/node@22.19.20 OK for: pptxgenjs@4.0.1 want: ^22.8.1
+69 silly placeDep node_modules/pptxgenjs https@1.0.0 OK for: pptxgenjs@4.0.1 want: ^1.0.0
+70 silly placeDep node_modules/pptxgenjs image-size@1.2.1 OK for: pptxgenjs@4.0.1 want: ^1.2.1
+71 silly placeDep node_modules/pptxgenjs jszip@3.10.1 OK for: pptxgenjs@4.0.1 want: ^3.10.1
+72 silly fetch manifest undici-types@~6.21.0
+73 silly packumentCache full:https://npmmirror.xaminim.com/undici-types cache-miss
+74 silly fetch manifest queue@6.0.2
+75 silly packumentCache full:https://npmmirror.xaminim.com/queue cache-miss
+76 silly fetch manifest lie@~3.3.0
+77 silly packumentCache full:https://npmmirror.xaminim.com/lie cache-miss
+78 silly fetch manifest pako@~1.0.2
+79 silly packumentCache full:https://npmmirror.xaminim.com/pako cache-miss
+80 silly fetch manifest readable-stream@~2.3.6
+81 silly packumentCache full:https://npmmirror.xaminim.com/readable-stream cache-miss
+82 silly fetch manifest setimmediate@^1.0.5
+83 silly packumentCache full:https://npmmirror.xaminim.com/setimmediate cache-miss
+84 http fetch GET 200 https://npmmirror.xaminim.com/queue 77ms (cache miss)
+85 silly packumentCache full:https://npmmirror.xaminim.com/queue set size:undefined disposed:false
+86 http fetch GET 200 https://npmmirror.xaminim.com/setimmediate 86ms (cache miss)
+87 silly packumentCache full:https://npmmirror.xaminim.com/setimmediate set size:undefined disposed:false
+88 http fetch GET 200 https://npmmirror.xaminim.com/readable-stream 95ms (cache miss)
+89 silly packumentCache full:https://npmmirror.xaminim.com/readable-stream set size:undefined disposed:false
+90 http fetch GET 200 https://npmmirror.xaminim.com/pako 142ms (cache miss)
+91 silly packumentCache full:https://npmmirror.xaminim.com/pako set size:undefined disposed:false
+92 http fetch GET 200 https://npmmirror.xaminim.com/undici-types 148ms (cache miss)
+93 silly packumentCache full:https://npmmirror.xaminim.com/undici-types set size:undefined disposed:false
+94 http fetch GET 200 https://npmmirror.xaminim.com/lie 239ms (cache miss)
+95 silly packumentCache full:https://npmmirror.xaminim.com/lie set size:undefined disposed:false
+96 silly placeDep node_modules/tsx esbuild@0.28.0 OK for: tsx@4.22.4 want: ~0.28.0
+97 silly placeDep node_modules/tsx fsevents@2.3.3 OK for: tsx@4.22.4 want: ~2.3.3
+98 silly fetch manifest @esbuild/aix-ppc64@0.28.0
+99 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2faix-ppc64 cache-miss
+100 silly fetch manifest @esbuild/android-arm@0.28.0
+101 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2fandroid-arm cache-miss
+102 silly fetch manifest @esbuild/android-arm64@0.28.0
+103 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2fandroid-arm64 cache-miss
+104 silly fetch manifest @esbuild/android-x64@0.28.0
+105 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2fandroid-x64 cache-miss
+106 silly fetch manifest @esbuild/darwin-arm64@0.28.0
+107 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2fdarwin-arm64 cache-miss
+108 silly fetch manifest @esbuild/darwin-x64@0.28.0
+109 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2fdarwin-x64 cache-miss
+110 silly fetch manifest @esbuild/freebsd-arm64@0.28.0
+111 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2ffreebsd-arm64 cache-miss
+112 silly fetch manifest @esbuild/freebsd-x64@0.28.0
+113 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2ffreebsd-x64 cache-miss
+114 silly fetch manifest @esbuild/linux-arm@0.28.0
+115 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2flinux-arm cache-miss
+116 silly fetch manifest @esbuild/linux-arm64@0.28.0
+117 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2flinux-arm64 cache-miss
+118 silly fetch manifest @esbuild/linux-ia32@0.28.0
+119 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2flinux-ia32 cache-miss
+120 silly fetch manifest @esbuild/linux-loong64@0.28.0
+121 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2flinux-loong64 cache-miss
+122 silly fetch manifest @esbuild/linux-mips64el@0.28.0
+123 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2flinux-mips64el cache-miss
+124 silly fetch manifest @esbuild/linux-ppc64@0.28.0
+125 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2flinux-ppc64 cache-miss
+126 silly fetch manifest @esbuild/linux-riscv64@0.28.0
+127 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2flinux-riscv64 cache-miss
+128 silly fetch manifest @esbuild/linux-s390x@0.28.0
+129 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2flinux-s390x cache-miss
+130 silly fetch manifest @esbuild/linux-x64@0.28.0
+131 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2flinux-x64 cache-miss
+132 silly fetch manifest @esbuild/netbsd-arm64@0.28.0
+133 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2fnetbsd-arm64 cache-miss
+134 silly fetch manifest @esbuild/netbsd-x64@0.28.0
+135 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2fnetbsd-x64 cache-miss
+136 silly fetch manifest @esbuild/openbsd-arm64@0.28.0
+137 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2fopenbsd-arm64 cache-miss
+138 silly fetch manifest @esbuild/openbsd-x64@0.28.0
+139 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2fopenbsd-x64 cache-miss
+140 silly fetch manifest @esbuild/openharmony-arm64@0.28.0
+141 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2fopenharmony-arm64 cache-miss
+142 silly fetch manifest @esbuild/sunos-x64@0.28.0
+143 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2fsunos-x64 cache-miss
+144 silly fetch manifest @esbuild/win32-arm64@0.28.0
+145 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2fwin32-arm64 cache-miss
+146 silly fetch manifest @esbuild/win32-ia32@0.28.0
+147 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2fwin32-ia32 cache-miss
+148 silly fetch manifest @esbuild/win32-x64@0.28.0
+149 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2fwin32-x64 cache-miss
+150 http fetch GET 200 https://npmmirror.xaminim.com/@esbuild%2fandroid-x64 96ms (cache miss)
+151 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2fandroid-x64 set size:undefined disposed:false
+152 http fetch GET 200 https://npmmirror.xaminim.com/@esbuild%2faix-ppc64 108ms (cache miss)
+153 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2faix-ppc64 set size:undefined disposed:false
+154 http fetch GET 200 https://npmmirror.xaminim.com/@esbuild%2fandroid-arm64 114ms (cache miss)
+155 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2fandroid-arm64 set size:undefined disposed:false
+156 http fetch GET 200 https://npmmirror.xaminim.com/@esbuild%2flinux-ia32 123ms (cache miss)
+157 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2flinux-ia32 set size:undefined disposed:false
+158 http fetch GET 200 https://npmmirror.xaminim.com/@esbuild%2ffreebsd-x64 152ms (cache miss)
+159 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2ffreebsd-x64 set size:undefined disposed:false
+160 http fetch GET 200 https://npmmirror.xaminim.com/@esbuild%2fdarwin-x64 205ms (cache miss)
+161 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2fdarwin-x64 set size:undefined disposed:false
+162 http fetch GET 200 https://npmmirror.xaminim.com/@esbuild%2fdarwin-arm64 214ms (cache miss)
+163 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2fdarwin-arm64 set size:undefined disposed:false
+164 http fetch GET 200 https://npmmirror.xaminim.com/@esbuild%2fnetbsd-arm64 238ms (cache miss)
+165 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2fnetbsd-arm64 set size:undefined disposed:false
+166 http fetch GET 200 https://npmmirror.xaminim.com/@esbuild%2flinux-arm 243ms (cache miss)
+167 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2flinux-arm set size:undefined disposed:false
+168 http fetch GET 200 https://npmmirror.xaminim.com/@esbuild%2flinux-s390x 244ms (cache miss)
+169 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2flinux-s390x set size:undefined disposed:false
+170 http fetch GET 200 https://npmmirror.xaminim.com/@esbuild%2flinux-riscv64 248ms (cache miss)
+171 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2flinux-riscv64 set size:undefined disposed:false
+172 http fetch GET 200 https://npmmirror.xaminim.com/@esbuild%2fandroid-arm 255ms (cache miss)
+173 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2fandroid-arm set size:undefined disposed:false
+174 http fetch GET 200 https://npmmirror.xaminim.com/@esbuild%2flinux-ppc64 257ms (cache miss)
+175 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2flinux-ppc64 set size:undefined disposed:false
+176 http fetch GET 200 https://npmmirror.xaminim.com/@esbuild%2flinux-x64 259ms (cache miss)
+177 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2flinux-x64 set size:undefined disposed:false
+178 http fetch GET 200 https://npmmirror.xaminim.com/@esbuild%2flinux-arm64 263ms (cache miss)
+179 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2flinux-arm64 set size:undefined disposed:false
+180 http fetch GET 200 https://npmmirror.xaminim.com/@esbuild%2fnetbsd-x64 283ms (cache miss)
+181 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2fnetbsd-x64 set size:undefined disposed:false
+182 http fetch GET 200 https://npmmirror.xaminim.com/@esbuild%2ffreebsd-arm64 298ms (cache miss)
+183 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2ffreebsd-arm64 set size:undefined disposed:false
+184 http fetch GET 200 https://npmmirror.xaminim.com/@esbuild%2fopenbsd-arm64 297ms (cache miss)
+185 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2fopenbsd-arm64 set size:undefined disposed:false
+186 http fetch GET 200 https://npmmirror.xaminim.com/@esbuild%2flinux-mips64el 300ms (cache miss)
+187 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2flinux-mips64el set size:undefined disposed:false
+188 http fetch GET 200 https://npmmirror.xaminim.com/@esbuild%2flinux-loong64 303ms (cache miss)
+189 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2flinux-loong64 set size:undefined disposed:false
+190 http fetch GET 200 https://npmmirror.xaminim.com/@esbuild%2fwin32-arm64 311ms (cache miss)
+191 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2fwin32-arm64 set size:undefined disposed:false
+192 http fetch GET 200 https://npmmirror.xaminim.com/@esbuild%2fopenharmony-arm64 315ms (cache miss)
+193 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2fopenharmony-arm64 set size:undefined disposed:false
+194 http fetch GET 200 https://npmmirror.xaminim.com/@esbuild%2fopenbsd-x64 326ms (cache miss)
+195 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2fopenbsd-x64 set size:undefined disposed:false
+196 http fetch GET 200 https://npmmirror.xaminim.com/@esbuild%2fwin32-ia32 327ms (cache miss)
+197 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2fwin32-ia32 set size:undefined disposed:false
+198 http fetch GET 200 https://npmmirror.xaminim.com/@esbuild%2fwin32-x64 331ms (cache miss)
+199 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2fwin32-x64 set size:undefined disposed:false
+200 http fetch GET 200 https://npmmirror.xaminim.com/@esbuild%2fsunos-x64 335ms (cache miss)
+201 silly packumentCache full:https://npmmirror.xaminim.com/@esbuild%2fsunos-x64 set size:undefined disposed:false
+202 silly placeDep node_modules/pptxgenjs undici-types@6.21.0 OK for: @types/node@22.19.20 want: ~6.21.0
+203 silly placeDep node_modules/pptxgenjs queue@6.0.2 OK for: image-size@1.2.1 want: 6.0.2
+204 silly fetch manifest inherits@~2.0.3
+205 silly packumentCache full:https://npmmirror.xaminim.com/inherits cache-miss
+206 http fetch GET 200 https://npmmirror.xaminim.com/inherits 14ms (cache miss)
+207 silly packumentCache full:https://npmmirror.xaminim.com/inherits set size:undefined disposed:false
+208 silly placeDep node_modules/pptxgenjs lie@3.3.0 OK for: jszip@3.10.1 want: ~3.3.0
+209 silly placeDep node_modules/pptxgenjs pako@1.0.11 OK for: jszip@3.10.1 want: ~1.0.2
+210 silly placeDep node_modules/pptxgenjs readable-stream@2.3.8 OK for: jszip@3.10.1 want: ~2.3.6
+211 silly placeDep node_modules/pptxgenjs setimmediate@1.0.5 OK for: jszip@3.10.1 want: ^1.0.5
+212 silly fetch manifest immediate@~3.0.5
+213 silly packumentCache full:https://npmmirror.xaminim.com/immediate cache-miss
+214 silly fetch manifest core-util-is@~1.0.0
+215 silly packumentCache full:https://npmmirror.xaminim.com/core-util-is cache-miss
+216 silly fetch manifest isarray@~1.0.0
+217 silly packumentCache full:https://npmmirror.xaminim.com/isarray cache-miss
+218 silly fetch manifest process-nextick-args@~2.0.0
+219 silly packumentCache full:https://npmmirror.xaminim.com/process-nextick-args cache-miss
+220 silly fetch manifest safe-buffer@~5.1.1
+221 silly packumentCache full:https://npmmirror.xaminim.com/safe-buffer cache-miss
+222 silly fetch manifest string_decoder@~1.1.1
+223 silly packumentCache full:https://npmmirror.xaminim.com/string_decoder cache-miss
+224 silly fetch manifest util-deprecate@~1.0.1
+225 silly packumentCache full:https://npmmirror.xaminim.com/util-deprecate cache-miss
+226 http fetch GET 200 https://npmmirror.xaminim.com/util-deprecate 75ms (cache miss)
+227 silly packumentCache full:https://npmmirror.xaminim.com/util-deprecate set size:undefined disposed:false
+228 http fetch GET 200 https://npmmirror.xaminim.com/isarray 79ms (cache miss)
+229 silly packumentCache full:https://npmmirror.xaminim.com/isarray set size:undefined disposed:false
+230 http fetch GET 200 https://npmmirror.xaminim.com/core-util-is 80ms (cache miss)
+231 silly packumentCache full:https://npmmirror.xaminim.com/core-util-is set size:undefined disposed:false
+232 http fetch GET 200 https://npmmirror.xaminim.com/process-nextick-args 79ms (cache miss)
+233 silly packumentCache full:https://npmmirror.xaminim.com/process-nextick-args set size:undefined disposed:false
+234 http fetch GET 200 https://npmmirror.xaminim.com/string_decoder 80ms (cache miss)
+235 silly packumentCache full:https://npmmirror.xaminim.com/string_decoder set size:undefined disposed:false
+236 http fetch GET 200 https://npmmirror.xaminim.com/safe-buffer 81ms (cache miss)
+237 silly packumentCache full:https://npmmirror.xaminim.com/safe-buffer set size:undefined disposed:false
+238 http fetch GET 200 https://npmmirror.xaminim.com/immediate 90ms (cache miss)
+239 silly packumentCache full:https://npmmirror.xaminim.com/immediate set size:undefined disposed:false
+240 silly placeDep node_modules/pptxgenjs immediate@3.0.6 OK for: lie@3.3.0 want: ~3.0.5
+241 silly placeDep node_modules/pptxgenjs inherits@2.0.4 OK for: queue@6.0.2 want: ~2.0.3
+242 silly placeDep node_modules/pptxgenjs core-util-is@1.0.3 OK for: readable-stream@2.3.8 want: ~1.0.0
+243 silly placeDep node_modules/pptxgenjs isarray@1.0.0 OK for: readable-stream@2.3.8 want: ~1.0.0
+244 silly placeDep node_modules/pptxgenjs process-nextick-args@2.0.1 OK for: readable-stream@2.3.8 want: ~2.0.0
+245 silly placeDep node_modules/pptxgenjs safe-buffer@5.1.2 OK for: readable-stream@2.3.8 want: ~5.1.1
+246 silly placeDep node_modules/pptxgenjs string_decoder@1.1.1 OK for: readable-stream@2.3.8 want: ~1.1.1
+247 silly placeDep node_modules/pptxgenjs util-deprecate@1.0.2 OK for: readable-stream@2.3.8 want: ~1.0.1
+248 silly placeDep node_modules/tsx @esbuild/aix-ppc64@0.28.0 OK for: esbuild@0.28.0 want: 0.28.0
+249 silly placeDep node_modules/tsx @esbuild/android-arm@0.28.0 OK for: esbuild@0.28.0 want: 0.28.0
+250 silly placeDep node_modules/tsx @esbuild/android-arm64@0.28.0 OK for: esbuild@0.28.0 want: 0.28.0
+251 silly placeDep node_modules/tsx @esbuild/android-x64@0.28.0 OK for: esbuild@0.28.0 want: 0.28.0
+252 silly placeDep node_modules/tsx @esbuild/darwin-arm64@0.28.0 OK for: esbuild@0.28.0 want: 0.28.0
+253 silly placeDep node_modules/tsx @esbuild/darwin-x64@0.28.0 OK for: esbuild@0.28.0 want: 0.28.0
+254 silly placeDep node_modules/tsx @esbuild/freebsd-arm64@0.28.0 OK for: esbuild@0.28.0 want: 0.28.0
+255 silly placeDep node_modules/tsx @esbuild/freebsd-x64@0.28.0 OK for: esbuild@0.28.0 want: 0.28.0
+256 silly placeDep node_modules/tsx @esbuild/linux-arm@0.28.0 OK for: esbuild@0.28.0 want: 0.28.0
+257 silly placeDep node_modules/tsx @esbuild/linux-arm64@0.28.0 OK for: esbuild@0.28.0 want: 0.28.0
+258 silly placeDep node_modules/tsx @esbuild/linux-ia32@0.28.0 OK for: esbuild@0.28.0 want: 0.28.0
+259 silly placeDep node_modules/tsx @esbuild/linux-loong64@0.28.0 OK for: esbuild@0.28.0 want: 0.28.0
+260 silly placeDep node_modules/tsx @esbuild/linux-mips64el@0.28.0 OK for: esbuild@0.28.0 want: 0.28.0
+261 silly placeDep node_modules/tsx @esbuild/linux-ppc64@0.28.0 OK for: esbuild@0.28.0 want: 0.28.0
+262 silly placeDep node_modules/tsx @esbuild/linux-riscv64@0.28.0 OK for: esbuild@0.28.0 want: 0.28.0
+263 silly placeDep node_modules/tsx @esbuild/linux-s390x@0.28.0 OK for: esbuild@0.28.0 want: 0.28.0
+264 silly placeDep node_modules/tsx @esbuild/linux-x64@0.28.0 OK for: esbuild@0.28.0 want: 0.28.0
+265 silly placeDep node_modules/tsx @esbuild/netbsd-arm64@0.28.0 OK for: esbuild@0.28.0 want: 0.28.0
+266 silly placeDep node_modules/tsx @esbuild/netbsd-x64@0.28.0 OK for: esbuild@0.28.0 want: 0.28.0
+267 silly placeDep node_modules/tsx @esbuild/openbsd-arm64@0.28.0 OK for: esbuild@0.28.0 want: 0.28.0
+268 silly placeDep node_modules/tsx @esbuild/openbsd-x64@0.28.0 OK for: esbuild@0.28.0 want: 0.28.0
+269 silly placeDep node_modules/tsx @esbuild/openharmony-arm64@0.28.0 OK for: esbuild@0.28.0 want: 0.28.0
+270 silly placeDep node_modules/tsx @esbuild/sunos-x64@0.28.0 OK for: esbuild@0.28.0 want: 0.28.0
+271 silly placeDep node_modules/tsx @esbuild/win32-arm64@0.28.0 OK for: esbuild@0.28.0 want: 0.28.0
+272 silly placeDep node_modules/tsx @esbuild/win32-ia32@0.28.0 OK for: esbuild@0.28.0 want: 0.28.0
+273 silly placeDep node_modules/tsx @esbuild/win32-x64@0.28.0 OK for: esbuild@0.28.0 want: 0.28.0
+274 silly reify moves {}
+275 verbose reify failed optional dependency /usr/local/lib/node_modules/tsx/node_modules/@esbuild/win32-x64
+276 silly reify mark deleted [ '/usr/local/lib/node_modules/tsx/node_modules/@esbuild/win32-x64' ]
+277 verbose reify failed optional dependency /usr/local/lib/node_modules/tsx/node_modules/@esbuild/win32-ia32
+278 silly reify mark deleted [ '/usr/local/lib/node_modules/tsx/node_modules/@esbuild/win32-ia32' ]
+279 verbose reify failed optional dependency /usr/local/lib/node_modules/tsx/node_modules/@esbuild/win32-arm64
+280 silly reify mark deleted [ '/usr/local/lib/node_modules/tsx/node_modules/@esbuild/win32-arm64' ]
+281 verbose reify failed optional dependency /usr/local/lib/node_modules/tsx/node_modules/@esbuild/sunos-x64
+282 silly reify mark deleted [ '/usr/local/lib/node_modules/tsx/node_modules/@esbuild/sunos-x64' ]
+283 verbose reify failed optional dependency /usr/local/lib/node_modules/tsx/node_modules/@esbuild/openharmony-arm64
+284 silly reify mark deleted [
+284 silly reify   '/usr/local/lib/node_modules/tsx/node_modules/@esbuild/openharmony-arm64'
+284 silly reify ]
+285 verbose reify failed optional dependency /usr/local/lib/node_modules/tsx/node_modules/@esbuild/openbsd-x64
+286 silly reify mark deleted [ '/usr/local/lib/node_modules/tsx/node_modules/@esbuild/openbsd-x64' ]
+287 verbose reify failed optional dependency /usr/local/lib/node_modules/tsx/node_modules/@esbuild/openbsd-arm64
+288 silly reify mark deleted [
+288 silly reify   '/usr/local/lib/node_modules/tsx/node_modules/@esbuild/openbsd-arm64'
+288 silly reify ]
+289 verbose reify failed optional dependency /usr/local/lib/node_modules/tsx/node_modules/@esbuild/netbsd-x64
+290 silly reify mark deleted [ '/usr/local/lib/node_modules/tsx/node_modules/@esbuild/netbsd-x64' ]
+291 verbose reify failed optional dependency /usr/local/lib/node_modules/tsx/node_modules/@esbuild/netbsd-arm64
+292 silly reify mark deleted [
+292 silly reify   '/usr/local/lib/node_modules/tsx/node_modules/@esbuild/netbsd-arm64'
+292 silly reify ]
+293 verbose reify failed optional dependency /usr/local/lib/node_modules/tsx/node_modules/@esbuild/linux-s390x
+294 silly reify mark deleted [ '/usr/local/lib/node_modules/tsx/node_modules/@esbuild/linux-s390x' ]
+295 verbose reify failed optional dependency /usr/local/lib/node_modules/tsx/node_modules/@esbuild/linux-riscv64
+296 silly reify mark deleted [
+296 silly reify   '/usr/local/lib/node_modules/tsx/node_modules/@esbuild/linux-riscv64'
+296 silly reify ]
+297 verbose reify failed optional dependency /usr/local/lib/node_modules/tsx/node_modules/@esbuild/linux-ppc64
+298 silly reify mark deleted [ '/usr/local/lib/node_modules/tsx/node_modules/@esbuild/linux-ppc64' ]
+299 verbose reify failed optional dependency /usr/local/lib/node_modules/tsx/node_modules/@esbuild/linux-mips64el
+300 silly reify mark deleted [
+300 silly reify   '/usr/local/lib/node_modules/tsx/node_modules/@esbuild/linux-mips64el'
+300 silly reify ]
+301 verbose reify failed optional dependency /usr/local/lib/node_modules/tsx/node_modules/@esbuild/linux-loong64
+302 silly reify mark deleted [
+302 silly reify   '/usr/local/lib/node_modules/tsx/node_modules/@esbuild/linux-loong64'
+302 silly reify ]
+303 verbose reify failed optional dependency /usr/local/lib/node_modules/tsx/node_modules/@esbuild/linux-ia32
+304 silly reify mark deleted [ '/usr/local/lib/node_modules/tsx/node_modules/@esbuild/linux-ia32' ]
+305 verbose reify failed optional dependency /usr/local/lib/node_modules/tsx/node_modules/@esbuild/linux-arm64
+306 silly reify mark deleted [ '/usr/local/lib/node_modules/tsx/node_modules/@esbuild/linux-arm64' ]
+307 verbose reify failed optional dependency /usr/local/lib/node_modules/tsx/node_modules/@esbuild/linux-arm
+308 silly reify mark deleted [ '/usr/local/lib/node_modules/tsx/node_modules/@esbuild/linux-arm' ]
+309 verbose reify failed optional dependency /usr/local/lib/node_modules/tsx/node_modules/@esbuild/freebsd-x64
+310 silly reify mark deleted [ '/usr/local/lib/node_modules/tsx/node_modules/@esbuild/freebsd-x64' ]
+311 verbose reify failed optional dependency /usr/local/lib/node_modules/tsx/node_modules/@esbuild/freebsd-arm64
+312 silly reify mark deleted [
+312 silly reify   '/usr/local/lib/node_modules/tsx/node_modules/@esbuild/freebsd-arm64'
+312 silly reify ]
+313 verbose reify failed optional dependency /usr/local/lib/node_modules/tsx/node_modules/@esbuild/darwin-x64
+314 silly reify mark deleted [ '/usr/local/lib/node_modules/tsx/node_modules/@esbuild/darwin-x64' ]
+315 verbose reify failed optional dependency /usr/local/lib/node_modules/tsx/node_modules/@esbuild/darwin-arm64
+316 silly reify mark deleted [
+316 silly reify   '/usr/local/lib/node_modules/tsx/node_modules/@esbuild/darwin-arm64'
+316 silly reify ]
+317 verbose reify failed optional dependency /usr/local/lib/node_modules/tsx/node_modules/@esbuild/android-x64
+318 silly reify mark deleted [ '/usr/local/lib/node_modules/tsx/node_modules/@esbuild/android-x64' ]
+319 verbose reify failed optional dependency /usr/local/lib/node_modules/tsx/node_modules/@esbuild/android-arm64
+320 silly reify mark deleted [
+320 silly reify   '/usr/local/lib/node_modules/tsx/node_modules/@esbuild/android-arm64'
+320 silly reify ]
+321 verbose reify failed optional dependency /usr/local/lib/node_modules/tsx/node_modules/@esbuild/android-arm
+322 silly reify mark deleted [ '/usr/local/lib/node_modules/tsx/node_modules/@esbuild/android-arm' ]
+323 verbose reify failed optional dependency /usr/local/lib/node_modules/tsx/node_modules/@esbuild/aix-ppc64
+324 silly reify mark deleted [ '/usr/local/lib/node_modules/tsx/node_modules/@esbuild/aix-ppc64' ]
+325 verbose reify failed optional dependency /usr/local/lib/node_modules/tsx/node_modules/fsevents
+326 silly reify mark deleted [ '/usr/local/lib/node_modules/tsx/node_modules/fsevents' ]
+327 verbose reify failed optional dependency /usr/local/lib/node_modules/playwright/node_modules/fsevents
+328 silly reify mark deleted [ '/usr/local/lib/node_modules/playwright/node_modules/fsevents' ]
+329 http cache tsx@https://npmmirror.xaminim.com/tsx/-/tsx-4.22.4.tgz 0ms (cache hit)
+330 http cache @esbuild/linux-x64@https://npmmirror.xaminim.com/@esbuild/linux-x64/-/linux-x64-0.28.0.tgz 0ms (cache hit)
+331 http cache pptxgenjs@https://npmmirror.xaminim.com/pptxgenjs/-/pptxgenjs-4.0.1.tgz 0ms (cache hit)
+332 http cache typescript@https://npmmirror.xaminim.com/typescript/-/typescript-6.0.3.tgz 0ms (cache hit)
+333 http cache util-deprecate@https://npmmirror.xaminim.com/util-deprecate/-/util-deprecate-1.0.2.tgz 0ms (cache hit)
+334 http cache esbuild@https://npmmirror.xaminim.com/esbuild/-/esbuild-0.28.0.tgz 0ms (cache hit)
+335 http cache string_decoder@https://npmmirror.xaminim.com/string_decoder/-/string_decoder-1.1.1.tgz 0ms (cache hit)
+336 http cache process-nextick-args@https://npmmirror.xaminim.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz 0ms (cache hit)
+337 http cache core-util-is@https://npmmirror.xaminim.com/core-util-is/-/core-util-is-1.0.3.tgz 0ms (cache hit)
+338 http cache safe-buffer@https://npmmirror.xaminim.com/safe-buffer/-/safe-buffer-5.1.2.tgz 0ms (cache hit)
+339 http cache isarray@https://npmmirror.xaminim.com/isarray/-/isarray-1.0.0.tgz 0ms (cache hit)
+340 http cache immediate@https://npmmirror.xaminim.com/immediate/-/immediate-3.0.6.tgz 0ms (cache hit)
+341 http cache inherits@https://npmmirror.xaminim.com/inherits/-/inherits-2.0.4.tgz 0ms (cache hit)
+342 http cache setimmediate@https://npmmirror.xaminim.com/setimmediate/-/setimmediate-1.0.5.tgz 0ms (cache hit)
+343 http cache pako@https://npmmirror.xaminim.com/pako/-/pako-1.0.11.tgz 0ms (cache hit)
+344 http cache readable-stream@https://npmmirror.xaminim.com/readable-stream/-/readable-stream-2.3.8.tgz 0ms (cache hit)
+345 http cache queue@https://npmmirror.xaminim.com/queue/-/queue-6.0.2.tgz 0ms (cache hit)
+346 http cache lie@https://npmmirror.xaminim.com/lie/-/lie-3.3.0.tgz 0ms (cache hit)
+347 http cache undici-types@https://npmmirror.xaminim.com/undici-types/-/undici-types-6.21.0.tgz 0ms (cache hit)
+348 http cache image-size@https://npmmirror.xaminim.com/image-size/-/image-size-1.2.1.tgz 0ms (cache hit)
+349 http cache jszip@https://npmmirror.xaminim.com/jszip/-/jszip-3.10.1.tgz 0ms (cache hit)
+350 http cache https@https://npmmirror.xaminim.com/https/-/https-1.0.0.tgz 0ms (cache hit)
+351 http cache @types/node@https://npmmirror.xaminim.com/@types/node/-/node-22.19.20.tgz 0ms (cache hit)
+352 http cache playwright@https://npmmirror.xaminim.com/playwright/-/playwright-1.60.0.tgz 0ms (cache hit)
+353 http cache playwright-core@https://npmmirror.xaminim.com/playwright-core/-/playwright-core-1.60.0.tgz 0ms (cache hit)
+354 silly tarball no local data for tsx@https://npmmirror.xaminim.com/tsx/-/tsx-4.22.4.tgz. Extracting by manifest.
+355 silly tarball no local data for @esbuild/linux-x64@https://npmmirror.xaminim.com/@esbuild/linux-x64/-/linux-x64-0.28.0.tgz. Extracting by manifest.
+356 silly tarball no local data for pptxgenjs@https://npmmirror.xaminim.com/pptxgenjs/-/pptxgenjs-4.0.1.tgz. Extracting by manifest.
+357 silly tarball no local data for typescript@https://npmmirror.xaminim.com/typescript/-/typescript-6.0.3.tgz. Extracting by manifest.
+358 silly tarball no local data for util-deprecate@https://npmmirror.xaminim.com/util-deprecate/-/util-deprecate-1.0.2.tgz. Extracting by manifest.
+359 silly tarball no local data for esbuild@https://npmmirror.xaminim.com/esbuild/-/esbuild-0.28.0.tgz. Extracting by manifest.
+360 silly tarball no local data for string_decoder@https://npmmirror.xaminim.com/string_decoder/-/string_decoder-1.1.1.tgz. Extracting by manifest.
+361 silly tarball no local data for process-nextick-args@https://npmmirror.xaminim.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz. Extracting by manifest.
+362 silly tarball no local data for core-util-is@https://npmmirror.xaminim.com/core-util-is/-/core-util-is-1.0.3.tgz. Extracting by manifest.
+363 silly tarball no local data for safe-buffer@https://npmmirror.xaminim.com/safe-buffer/-/safe-buffer-5.1.2.tgz. Extracting by manifest.
+364 silly tarball no local data for isarray@https://npmmirror.xaminim.com/isarray/-/isarray-1.0.0.tgz. Extracting by manifest.
+365 silly tarball no local data for immediate@https://npmmirror.xaminim.com/immediate/-/immediate-3.0.6.tgz. Extracting by manifest.
+366 silly tarball no local data for inherits@https://npmmirror.xaminim.com/inherits/-/inherits-2.0.4.tgz. Extracting by manifest.
+367 silly tarball no local data for setimmediate@https://npmmirror.xaminim.com/setimmediate/-/setimmediate-1.0.5.tgz. Extracting by manifest.
+368 silly tarball no local data for pako@https://npmmirror.xaminim.com/pako/-/pako-1.0.11.tgz. Extracting by manifest.
+369 silly tarball no local data for readable-stream@https://npmmirror.xaminim.com/readable-stream/-/readable-stream-2.3.8.tgz. Extracting by manifest.
+370 silly tarball no local data for queue@https://npmmirror.xaminim.com/queue/-/queue-6.0.2.tgz. Extracting by manifest.
+371 silly tarball no local data for lie@https://npmmirror.xaminim.com/lie/-/lie-3.3.0.tgz. Extracting by manifest.
+372 silly tarball no local data for undici-types@https://npmmirror.xaminim.com/undici-types/-/undici-types-6.21.0.tgz. Extracting by manifest.
+373 silly tarball no local data for image-size@https://npmmirror.xaminim.com/image-size/-/image-size-1.2.1.tgz. Extracting by manifest.
+374 silly tarball no local data for jszip@https://npmmirror.xaminim.com/jszip/-/jszip-3.10.1.tgz. Extracting by manifest.
+375 silly tarball no local data for https@https://npmmirror.xaminim.com/https/-/https-1.0.0.tgz. Extracting by manifest.
+376 silly tarball no local data for @types/node@https://npmmirror.xaminim.com/@types/node/-/node-22.19.20.tgz. Extracting by manifest.
+377 silly tarball no local data for playwright@https://npmmirror.xaminim.com/playwright/-/playwright-1.60.0.tgz. Extracting by manifest.
+378 silly tarball no local data for playwright-core@https://npmmirror.xaminim.com/playwright-core/-/playwright-core-1.60.0.tgz. Extracting by manifest.
+379 http fetch GET 200 https://npmmirror.xaminim.com/util-deprecate/-/util-deprecate-1.0.2.tgz 364ms (cache miss)
+380 http fetch GET 200 https://npmmirror.xaminim.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz 365ms (cache miss)
+381 http fetch GET 200 https://npmmirror.xaminim.com/core-util-is/-/core-util-is-1.0.3.tgz 365ms (cache miss)
+382 http fetch GET 200 https://npmmirror.xaminim.com/queue/-/queue-6.0.2.tgz 366ms (cache miss)
+383 http fetch GET 200 https://npmmirror.xaminim.com/https/-/https-1.0.0.tgz 367ms (cache miss)
+384 http fetch GET 200 https://npmmirror.xaminim.com/string_decoder/-/string_decoder-1.1.1.tgz 373ms (cache miss)
+385 http fetch GET 200 https://npmmirror.xaminim.com/inherits/-/inherits-2.0.4.tgz 372ms (cache miss)
+386 http fetch GET 200 https://npmmirror.xaminim.com/setimmediate/-/setimmediate-1.0.5.tgz 372ms (cache miss)
+387 http fetch GET 200 https://npmmirror.xaminim.com/isarray/-/isarray-1.0.0.tgz 374ms (cache miss)
+388 http fetch GET 200 https://npmmirror.xaminim.com/immediate/-/immediate-3.0.6.tgz 376ms (cache miss)
+389 http fetch GET 200 https://npmmirror.xaminim.com/safe-buffer/-/safe-buffer-5.1.2.tgz 378ms (cache miss)
+390 http fetch GET 200 https://npmmirror.xaminim.com/lie/-/lie-3.3.0.tgz 377ms (cache miss)
+391 http fetch GET 200 https://npmmirror.xaminim.com/esbuild/-/esbuild-0.28.0.tgz 402ms (cache miss)
+392 http fetch GET 200 https://npmmirror.xaminim.com/readable-stream/-/readable-stream-2.3.8.tgz 411ms (cache miss)
+393 http fetch GET 200 https://npmmirror.xaminim.com/undici-types/-/undici-types-6.21.0.tgz 462ms (cache miss)
+394 http fetch GET 200 https://npmmirror.xaminim.com/image-size/-/image-size-1.2.1.tgz 505ms (cache miss)
+395 http fetch GET 200 https://npmmirror.xaminim.com/tsx/-/tsx-4.22.4.tgz 605ms (cache miss)
+396 http fetch GET 200 https://npmmirror.xaminim.com/pako/-/pako-1.0.11.tgz 601ms (cache miss)
+397 http fetch GET 200 https://npmmirror.xaminim.com/jszip/-/jszip-3.10.1.tgz 665ms (cache miss)
+398 http fetch GET 200 https://npmmirror.xaminim.com/pptxgenjs/-/pptxgenjs-4.0.1.tgz 853ms (cache miss)
+399 http fetch GET 200 https://npmmirror.xaminim.com/@types/node/-/node-22.19.20.tgz 876ms (cache miss)
+400 http fetch GET 200 https://npmmirror.xaminim.com/playwright/-/playwright-1.60.0.tgz 1039ms (cache miss)
+401 http fetch GET 200 https://npmmirror.xaminim.com/@esbuild/linux-x64/-/linux-x64-0.28.0.tgz 1513ms (cache miss)
+402 http fetch GET 200 https://npmmirror.xaminim.com/playwright-core/-/playwright-core-1.60.0.tgz 1552ms (cache miss)
+403 http fetch GET 200 https://npmmirror.xaminim.com/typescript/-/typescript-6.0.3.tgz 1716ms (cache miss)
+404 info run esbuild@0.28.0 postinstall node_modules/tsx/node_modules/esbuild node install.js
+405 info run esbuild@0.28.0 postinstall { code: 0, signal: null }
+406 silly ADD node_modules/typescript
+407 silly ADD node_modules/tsx
+408 silly ADD
+409 silly ADD
+410 silly ADD
+411 silly ADD
+412 silly ADD
+413 silly ADD
+414 silly ADD
+415 silly ADD
+416 silly ADD
+417 silly ADD node_modules/tsx/node_modules/@esbuild/linux-x64
+418 silly ADD
+419 silly ADD
+420 silly ADD
+421 silly ADD
+422 silly ADD
+423 silly ADD
+424 silly ADD
+425 silly ADD
+426 silly ADD
+427 silly ADD
+428 silly ADD
+429 silly ADD
+430 silly ADD
+431 silly ADD
+432 silly ADD
+433 silly ADD
+434 silly ADD
+435 silly ADD node_modules/tsx/node_modules/esbuild
+436 silly ADD node_modules/pptxgenjs
+437 silly ADD node_modules/pptxgenjs/node_modules/util-deprecate
+438 silly ADD node_modules/pptxgenjs/node_modules/string_decoder
+439 silly ADD node_modules/pptxgenjs/node_modules/safe-buffer
+440 silly ADD node_modules/pptxgenjs/node_modules/process-nextick-args
+441 silly ADD node_modules/pptxgenjs/node_modules/isarray
+442 silly ADD node_modules/pptxgenjs/node_modules/core-util-is
+443 silly ADD node_modules/pptxgenjs/node_modules/inherits
+444 silly ADD node_modules/pptxgenjs/node_modules/immediate
+445 silly ADD node_modules/pptxgenjs/node_modules/setimmediate
+446 silly ADD node_modules/pptxgenjs/node_modules/readable-stream
+447 silly ADD node_modules/pptxgenjs/node_modules/pako
+448 silly ADD node_modules/pptxgenjs/node_modules/lie
+449 silly ADD node_modules/pptxgenjs/node_modules/queue
+450 silly ADD node_modules/pptxgenjs/node_modules/undici-types
+451 silly ADD node_modules/pptxgenjs/node_modules/jszip
+452 silly ADD node_modules/pptxgenjs/node_modules/image-size
+453 silly ADD node_modules/pptxgenjs/node_modules/https
+454 silly ADD node_modules/pptxgenjs/node_modules/@types/node
+455 silly ADD node_modules/playwright
+456 silly ADD node_modules/playwright/node_modules/playwright-core
+457 silly ADD
+458 verbose cwd /workspace
+459 verbose os Linux 5.4.0-204-generic
+460 verbose node v22.17.0
+461 verbose npm  v10.9.2
+462 verbose exit 0
+463 info ok
