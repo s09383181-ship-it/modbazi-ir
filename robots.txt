@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://s09383181-ship-it.github.io/modbazi-ir/sitemap.xml
